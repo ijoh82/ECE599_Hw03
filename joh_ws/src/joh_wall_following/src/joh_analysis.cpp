@@ -2,19 +2,12 @@
 #include "std_msgs/Float64.h"
 #include "joh_wall_following/myType.h"
 
-/* Read speed input signal */
-/*float speedX = 0.0;
-void getSpeedX(const std_msgs::Twist speedAll) {
-  speedX = speedAll.linear.x;
-}
-*/
 // get cumulative error
 float ERROR_SUM = 0.0;
 float ERROR_MAX = 0.0;
 int   DATA_COUNT = 0;
 void getErrors(const std_msgs::Float64 pid_error) {
     float error = (float) (pid_error.data);
-    printf("error=%f\n", error);
     ERROR_SUM = ERROR_SUM + error;
     if (abs(error) > ERROR_MAX)
     {

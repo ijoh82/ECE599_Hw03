@@ -3,6 +3,7 @@ cba9517813aff07001f0757ddc6228e9 /home/ijoh82/ECE599/Hw03/joh_ws/devel/include/a
 552a56348ddc3fc6f28956c982e8562f /home/ijoh82/ECE599/Hw03/joh_ws/devel/include/ackermann_msgs/AckermannDrive.h
 edc8314ad95e66baa4c090c867e5d38f /home/ijoh82/ECE599/Hw03/joh_ws/devel/include/ackermann_msgs/AckermannDriveStamped.h
 8ddacb046b9d326615c09cd43a81747a /home/ijoh82/ECE599/Hw03/joh_ws/devel/include/hokuyo_node/HokuyoConfig.h
+6d2bbe72ca129318c0d3a1539a3946be /home/ijoh82/ECE599/Hw03/joh_ws/devel/include/joh_wall_following/myType.h
 2748232263c9dbc93d26b045963fb554 /home/ijoh82/ECE599/Hw03/joh_ws/devel/include/race/drive_param.h
 4c0e48ab6dcf2ec031cd2dbc49b8bcb0 /home/ijoh82/ECE599/Hw03/joh_ws/devel/include/race/drive_values.h
 ba75abe16bc2115197749c7c5ec7129b /home/ijoh82/ECE599/Hw03/joh_ws/devel/include/race/pid_input.h
@@ -11,6 +12,8 @@ ba75abe16bc2115197749c7c5ec7129b /home/ijoh82/ECE599/Hw03/joh_ws/devel/include/r
 0bdff858321cd344fd269bbfa367ba26 /home/ijoh82/ECE599/Hw03/joh_ws/devel/lib/python2.7/dist-packages/ackermann_msgs/msg/_AckermannDrive.py
 2dbbcb1836476512b3fc456bb7029675 /home/ijoh82/ECE599/Hw03/joh_ws/devel/lib/python2.7/dist-packages/ackermann_msgs/msg/_AckermannDriveStamped.py
 b0f21ccafd88d03e3fd34ecf294996a1 /home/ijoh82/ECE599/Hw03/joh_ws/devel/lib/python2.7/dist-packages/ackermann_msgs/msg/__init__.py
+d3a87f0c0e550c9f214cb32f769b17f6 /home/ijoh82/ECE599/Hw03/joh_ws/devel/lib/python2.7/dist-packages/joh_wall_following/msg/__init__.py
+f2c45ac14ce385828cf323ec33f53f90 /home/ijoh82/ECE599/Hw03/joh_ws/devel/lib/python2.7/dist-packages/joh_wall_following/msg/_myType.py
 711e1eda282b4c8ebf6cbacc6138060a /home/ijoh82/ECE599/Hw03/joh_ws/devel/lib/python2.7/dist-packages/race/msg/__init__.py
 f775ca434f0dddbff79798ed563bfd9a /home/ijoh82/ECE599/Hw03/joh_ws/devel/lib/python2.7/dist-packages/race/msg/_drive_param.py
 08b240b0096355e8c83e732f5bcd9035 /home/ijoh82/ECE599/Hw03/joh_ws/devel/lib/python2.7/dist-packages/race/msg/_drive_values.py
@@ -20,6 +23,7 @@ a02eeaea4b8c68dfb35f5a9ba7bf3de9 /home/ijoh82/ECE599/Hw03/joh_ws/devel/lib/pytho
 965659b156431a4e0110d1a57b9ae2a8 /home/ijoh82/ECE599/Hw03/joh_ws/devel/lib/python2.7/dist-packages/vesc_msgs/msg/__init__.py
 e32a74f7946d8aaf48bb0692dfaa4e1d /home/ijoh82/ECE599/Hw03/joh_ws/devel/share/common-lisp/ros/ackermann_msgs/msg/AckermannDrive.lisp
 4e85f7b194afab1ab3bf3efa86e1830b /home/ijoh82/ECE599/Hw03/joh_ws/devel/share/common-lisp/ros/ackermann_msgs/msg/AckermannDriveStamped.lisp
+57d5ba31d0139fd10ba83357e6a69463 /home/ijoh82/ECE599/Hw03/joh_ws/devel/share/common-lisp/ros/joh_wall_following/msg/myType.lisp
 ca9d2dd8d4ef8c3019f43816fe01f675 /home/ijoh82/ECE599/Hw03/joh_ws/devel/share/common-lisp/ros/race/msg/drive_param.lisp
 fb3dc3d61a5b8f977c4d1da977a4a649 /home/ijoh82/ECE599/Hw03/joh_ws/devel/share/common-lisp/ros/race/msg/drive_values.lisp
 ef5fede22c6d90b6aa69a5e60bc6cdb5 /home/ijoh82/ECE599/Hw03/joh_ws/devel/share/common-lisp/ros/race/msg/pid_input.lisp
@@ -27,6 +31,7 @@ ef5fede22c6d90b6aa69a5e60bc6cdb5 /home/ijoh82/ECE599/Hw03/joh_ws/devel/share/com
 cf8a267939b41234ee7b716e7c1cab94 /home/ijoh82/ECE599/Hw03/joh_ws/devel/share/common-lisp/ros/vesc_msgs/msg/VescStateStamped.lisp
 efd9751b6993bf576b942bf88ca16623 /home/ijoh82/ECE599/Hw03/joh_ws/devel/share/gennodejs/ros/ackermann_msgs/msg/AckermannDrive.js
 94e0c50cb6e891e36ee562480a9e3163 /home/ijoh82/ECE599/Hw03/joh_ws/devel/share/gennodejs/ros/ackermann_msgs/msg/AckermannDriveStamped.js
+38413c2bc7598ddf23c328634288a3a3 /home/ijoh82/ECE599/Hw03/joh_ws/devel/share/gennodejs/ros/joh_wall_following/msg/myType.js
 5b9b56d0d555cb21295c5152a5796f42 /home/ijoh82/ECE599/Hw03/joh_ws/devel/share/gennodejs/ros/race/msg/drive_param.js
 16696546f88d64a1d72142fb79fd9a8e /home/ijoh82/ECE599/Hw03/joh_ws/devel/share/gennodejs/ros/race/msg/drive_values.js
 bf4522cc53119633be7811fedab7e61a /home/ijoh82/ECE599/Hw03/joh_ws/devel/share/gennodejs/ros/race/msg/pid_input.js
@@ -35,6 +40,8 @@ ba8c25f4e963e29e8d2f9c33d3790d90 /home/ijoh82/ECE599/Hw03/joh_ws/devel/share/gen
 c934d7bfe9327a7358c35527df188168 /home/ijoh82/ECE599/Hw03/joh_ws/devel/share/roseus/ros/ackermann_msgs/manifest.l
 cd4b03e80ac3d97d64185f73b8322fbc /home/ijoh82/ECE599/Hw03/joh_ws/devel/share/roseus/ros/ackermann_msgs/msg/AckermannDrive.l
 fa8f09bf7c8a6d36a706a84d9f8590ca /home/ijoh82/ECE599/Hw03/joh_ws/devel/share/roseus/ros/ackermann_msgs/msg/AckermannDriveStamped.l
+3bcf746966ecad2dd5dc90053bcd6b17 /home/ijoh82/ECE599/Hw03/joh_ws/devel/share/roseus/ros/joh_wall_following/manifest.l
+d82225739372ea9da75ba1c25b84f675 /home/ijoh82/ECE599/Hw03/joh_ws/devel/share/roseus/ros/joh_wall_following/msg/myType.l
 7e3cce9c4c949083bb414b3b416bd958 /home/ijoh82/ECE599/Hw03/joh_ws/devel/share/roseus/ros/race/manifest.l
 9e16f7e6699c09fdaf6f4d14863e70f1 /home/ijoh82/ECE599/Hw03/joh_ws/devel/share/roseus/ros/race/msg/drive_param.l
 30c14196ba75d1fb006d5ceb856a0f41 /home/ijoh82/ECE599/Hw03/joh_ws/devel/share/roseus/ros/race/msg/drive_values.l
@@ -74,3 +81,9 @@ ed108c98e4eba1566c485077f745dca6 f110-skeletons-spring2020/system/vesc/vesc_msgs
 ed108c98e4eba1566c485077f745dca6 f110-skeletons-spring2020/system/vesc/vesc_msgs/CMakeFiles/vesc_msgs_generate_messages_lisp
 ed108c98e4eba1566c485077f745dca6 f110-skeletons-spring2020/system/vesc/vesc_msgs/CMakeFiles/vesc_msgs_generate_messages_nodejs
 ed108c98e4eba1566c485077f745dca6 f110-skeletons-spring2020/system/vesc/vesc_msgs/CMakeFiles/vesc_msgs_generate_messages_py
+bcff99c1c0bba59e84d1bef50a0c3eb7 joh_wall_following/CMakeFiles/_joh_wall_following_generate_messages_check_deps_myType
+8b38e39f53878749ab3ae952831057f7 joh_wall_following/CMakeFiles/joh_wall_following_generate_messages_cpp
+8b38e39f53878749ab3ae952831057f7 joh_wall_following/CMakeFiles/joh_wall_following_generate_messages_eus
+8b38e39f53878749ab3ae952831057f7 joh_wall_following/CMakeFiles/joh_wall_following_generate_messages_lisp
+8b38e39f53878749ab3ae952831057f7 joh_wall_following/CMakeFiles/joh_wall_following_generate_messages_nodejs
+8b38e39f53878749ab3ae952831057f7 joh_wall_following/CMakeFiles/joh_wall_following_generate_messages_py

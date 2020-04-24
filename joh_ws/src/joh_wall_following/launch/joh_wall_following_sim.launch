@@ -8,5 +8,5 @@
   <node pkg="wall_following" name="pid_error_node" type="pid_error.py" output="screen"/> 
   <node pkg="wall_following" name="control_node" type="control.py" output="screen"/>
   <node pkg="wall_following" name="sim_connector_node" type="sim_connector.py" output="screen"/>
-
+  <node pkg="joh_wall_following" name="joh_analysis" type="joh_analysis" output="screen"/>
 </launch>

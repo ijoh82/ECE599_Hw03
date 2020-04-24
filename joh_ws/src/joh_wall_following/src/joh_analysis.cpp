@@ -49,7 +49,7 @@ int main(int argc, char **argv) {
             joh_wall_following::myType aveAndMax;
             aveAndMax.average = ERROR_SUM / DATA_COUNT;
             aveAndMax.maximum = ERROR_MAX;
-            printf("ave=%f , max=%f , cnt=%i\n", aveAndMax.average, aveAndMax.maximum, DATA_COUNT);
+            printf("average=%f , max=%f\n", aveAndMax.average, aveAndMax.maximum);
         
             // Publish the message to send
             pub.publish(aveAndMax);

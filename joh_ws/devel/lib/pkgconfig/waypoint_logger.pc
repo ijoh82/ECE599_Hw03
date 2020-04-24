@@ -1,0 +1,8 @@
+prefix=/home/ijoh82/ECE599/Hw03/joh_ws/devel
+
+Name: waypoint_logger
+Description: Description of waypoint_logger
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

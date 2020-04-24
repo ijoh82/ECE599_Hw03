@@ -1,0 +1,8 @@
+prefix=/home/ijoh82/ECE599/Hw03/joh_ws/devel
+
+Name: lab_scan_matching
+Description: Description of lab_scan_matching
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
